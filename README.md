@@ -23,3 +23,7 @@ The following is a brief description of each file used in preliminary examinatio
  * quintic_interp.py: Performs quintic interpolation on a specifc test function, as in Section 4. The plot of this interpolation is shown in the paper and below:
 
 ![alt text](https://github.com/joshshterenberg/Chebyshev_MS/blob/main/quintic_roots_gen.pdf?raw=true)
+=======
+ * thing.1
+ * thing.2
+
