@@ -17,7 +17,7 @@ Then, simply download the file(s) you with to run and execute using Python3.
 
 The following is a brief description of each file used in preliminary examinations of sequences:
  * chebyshev_coeff_gen.py: A general function that, given a test function of x, a given number of Chebyshev coefficients to generate, and a potential multiplier sequence to investigate, applies the methodology in Section 4. It takes the inputted test function and modifies it in terms of the Chebyshev basis set via application of the inner product, and the coefficients are printed. Then, the test function in the new basis is applied the potential multiplier sequence term-wise, and the new polynomial is formed. Finally, the roots of the polynomial are found via numpy, and printed.
- * chebyshev_k_class.py: A nearly identical algorithm to chebyshev_coeff_gen.py, following the algorithm of the Figures and Tables section directly, sweeping 1D space from a linear operator kernel given. 
+ * chebyshev_k_class.py: A nearly identical algorithm to chebyshev_coeff_gen.py, following the algorithm of the Tables and Algorithms section directly, sweeping 1D space from a linear operator kernel given. 
  * cubic_sweep.py: A more basic-level test function that applies the beginning steps of Section 5 on particular cases of a cubic potential multiplier sequence. This function sweeps three-dimensional space for three potential kernels for a given operator (default: cubic) and halts when it finds a non-alternating sign change.
  * q2k_gen.py: This function generates terms of a specific Q2K sequence from a user-given test function.
  * quintic_interp.py: Performs quintic interpolation on a specifc test function, as in Section 4. The plot of this interpolation is shown in the paper and below:
